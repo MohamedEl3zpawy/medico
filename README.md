@@ -27,7 +27,7 @@ Book doctor appointments, order medicine, manage prescriptions, and track your m
 - 💊 **Medicine & Pharmacy** — Search medicine, browse nearby pharmacies, view offers, and place orders
 - 📋 **Order History** — Track current and past medicine orders
 - 📄 **Medical Reports** — View and manage personal medical records
-- 🔍 **Smart Search** — Unified search across doctors, medicine, and reports with recent search history
+- 🔍 **Smart Search** — Unified search across doctors, medicine, and reports with recent search history, real GPS-based distance, and advanced filters
 - 💬 **Doctor Reviews** — Read and leave reviews for doctors
 
 ## 🛠️ Tech Stack & Architecture
@@ -37,6 +37,7 @@ Book doctor appointments, order medicine, manage prescriptions, and track your m
 | **Language / Framework** | Flutter & Dart |
 | **State Management** | Provider |
 | **Networking** | `http` package, consumed through a dedicated service layer |
+| **Location** | `geolocator` — real device GPS for distance-based doctor search |
 | **Data Layer** | Typed models (`Doctor`, `Booking`, `Medicine`, `Pharmacy`, `Offer`, `MedOrder`) with `fromJson` / `toJson` |
 | **Backend** | REST APIs (mockapi.io) |
 
