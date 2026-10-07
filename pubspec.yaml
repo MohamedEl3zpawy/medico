@@ -1,0 +1,39 @@
+name: medico
+description: A medical app
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.4.0
+  flutter_svg: ^2.2.0
+  image_picker: ^1.2.3
+  font_awesome_flutter: ^11.0.0
+  provider: ^6.1.2
+  geolocator: ^13.0.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
